@@ -1,20 +1,26 @@
-# bitcoin
+# Bitcoin Charts Landing page
 
-## Build Setup
+I try to implement this concept design for web.
 
-```bash
-# install dependencies
-$ npm install
+![Image](https://github.com/hitman00/bitcoin-chart/blob/master/assets/imgs/demo.JPG)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Link
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+- [Demo](https://hitman00.github.io/bitcoin-chart/)
+- Images: [Google](https://google.com) 
 
-# generate static project
-$ npm run generate
-```
+## Technologies
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- NuxtJs (SSG)
+- Scss
+- Axios
+- Chartjs
+
+## License
+
+This repository is licensed under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
+
+## Contact Us
+
+- E-mail: <mrezaee79@gmail.com.com><br>
+- Telegram: [@Hitman](https://telegram.me/hitman0012)
