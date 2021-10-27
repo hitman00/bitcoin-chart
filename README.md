@@ -4,11 +4,6 @@ I try to implement this concept design for web.
 
 ![Image](https://github.com/hitman00/bitcoin-chart/blob/master/assets/imgs/demo.JPG)
 
-## Link
-
-- [Demo](https://hitman00.github.io/bitcoin-chart/)
-- Images: [Google](https://google.com) 
-
 ## Technologies
 
 - NuxtJs (SSG)
