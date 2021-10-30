@@ -17,5 +17,5 @@ This repository is licensed under the [GPL-3.0](https://opensource.org/licenses/
 
 ## Contact Us
 
-- E-mail: <mrezaee79@gmail.com.com><br>
+- E-mail: <mrezaee79@gmail.com><br>
 - Telegram: [@Hitman](https://telegram.me/hitman0012)
