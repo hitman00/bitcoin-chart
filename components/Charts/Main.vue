@@ -28,25 +28,20 @@
           <input type="text" placeholder="End Date" />
         </div>
       </div>
-      <LineChart v-if="loaded" :chartdata="chartData" :options="chartOptions" />
-      <About />
+      <LineChartBox
+        v-if="loaded"
+        :chartdata="chartData"
+        :options="chartOptions"
+      />
+      <ChartsAboutBox />
     </div>
-    <div v-if="!show"><News /></div>
+    <div v-if="!show"><ChartsNewsBox /></div>
   </div>
 </template>
 
 <script>
-import News from './News/News.vue'
-import About from './About/About.vue'
-import LineChart from '@/components/LineChart/LineChart.vue'
-
 export default {
-  name: 'Chart',
-  components: {
-    LineChart,
-    News,
-    About,
-  },
+  name: 'ChartsMain',
   data() {
     return {
       show: true,

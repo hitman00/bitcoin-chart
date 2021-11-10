@@ -3,22 +3,22 @@
     <div :class="$style.title">
       <div :class="$style.logo">
         <div :class="$style.logo_img">
-          <img src="@/assets/imgs/logo.png" />
+          <img src="~/assets/imgs/logo.png" />
         </div>
         <div :class="$style.logo_title">Bitcoin<span>(BTC)</span></div>
-        <img :class="$style.star" src="@/assets/imgs/star.png" />
+        <img :class="$style.star" src="~/assets/imgs/star.png" />
       </div>
       <div :class="$style.links">
         <ul :class="$style.link_fix">
           <li v-for="item in items" :key="item.id">
             <img :class="$style.img_icon" :src="item.icon" />
             {{ item.page }}
-            <img :class="$style.arrow" src="@/assets/imgs/arrow.png" />
+            <img :class="$style.arrow" src="~/assets/imgs/arrow.png" />
           </li>
         </ul>
         <div :class="$style.links_icon" @click="show = !show">
           <div :class="[$style.logo_img, show ? $style.active : '']">
-            <img src="@/assets/imgs/menu.png" />
+            <img src="~/assets/imgs/menu.png" />
           </div>
           <div v-if="show" :class="$style.open_links">
             <ul>
@@ -33,40 +33,36 @@
       </div>
     </div>
     <div :class="$style.number">
-      <Price />
+      <HeaderPriceBox />
     </div>
   </div>
 </template>
 
 <script>
-import Price from './Price/Price.vue'
 export default {
-  name: 'Header',
-  components: {
-    Price,
-  },
+  name: 'HeaderMain',
   data: () => ({
     show: false,
     items: [
       {
         page: 'Website',
-        icon: require('@/assets/imgs/website.png'),
+        icon: require('~/assets/imgs/website.png'),
       },
       {
         page: 'Explore',
-        icon: require('@/assets/imgs/search.png'),
+        icon: require('~/assets/imgs/search.png'),
       },
       {
         page: 'Message Board',
-        icon: require('@/assets/imgs/message1.png'),
+        icon: require('~/assets/imgs/message1.png'),
       },
       {
         page: 'Source Code',
-        icon: require('@/assets/imgs/sorce.png'),
+        icon: require('~/assets/imgs/sorce.png'),
       },
       {
         page: 'Technical Documentation',
-        icon: require('@/assets/imgs/page.png'),
+        icon: require('~/assets/imgs/page.png'),
       },
     ],
   }),

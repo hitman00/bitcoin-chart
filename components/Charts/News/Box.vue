@@ -15,31 +15,32 @@
 
 <script>
 export default {
+  name: 'ChartsNewsBox',
   data: () => ({
     list: [
       {
-        img: require('@/assets/imgs/new1.png'),
+        img: require('~/assets/imgs/new1.png'),
         title:
           'Bitcoin price at $16k and beyond? Here are the bear and bull cases',
         person: 'Navid JM',
         time: '1 HOUR AGO',
       },
       {
-        img: require('@/assets/imgs/new2.png'),
+        img: require('~/assets/imgs/new2.png'),
         title:
           'Bitcoin price at $16k and beyond? Here are the bear and bull cases',
         person: 'Javad SM',
         time: '1 HOUR AGO',
       },
       {
-        img: require('@/assets/imgs/new3.png'),
+        img: require('~/assets/imgs/new3.png'),
         title:
           'Bitcoin price at $16k and beyond? Here are the bear and bull cases',
         person: 'Ali Abas',
         time: '2 HOUR AGO',
       },
       {
-        img: require('@/assets/imgs/new4.png'),
+        img: require('~/assets/imgs/new4.png'),
         title:
           'Bitcoin price at $16k and beyond? Here are the bear and bull cases',
         person: 'Poya',

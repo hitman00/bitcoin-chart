@@ -42,7 +42,7 @@
 
 <script>
 export default {
-  name: 'Price',
+  name: 'HeaderPriceBox',
   data: () => ({
     prices: '',
     loaded: false,

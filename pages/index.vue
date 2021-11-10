@@ -1,18 +1,13 @@
 <template>
   <div :class="$style.main">
-    <Header />
-    <Chart />
+    <HeaderMain />
+    <ChartsMain />
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header/Header.vue'
-import Chart from '@/components/Charts/Charts.vue'
 export default {
-  components: {
-    Header,
-    Chart,
-  },
+  name: 'Pagesindex',
 }
 </script>
 

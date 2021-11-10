@@ -2,6 +2,7 @@
 import { Line } from 'vue-chartjs'
 
 export default {
+  name: 'LineChartBox',
   extends: Line,
   props: {
     chartdata: {
